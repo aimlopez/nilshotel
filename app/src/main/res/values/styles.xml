@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="WrapContentValues" >
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="WrapContentValues.icons" >
+        <item name="android:layout_gravity">center</item>
+      <!--  <item name="android:textSize">@dimen/app_icon_size</item> -->
+
+    </style>
+    <style name="WrapContentValues.info" >
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/icon_text_padding_left</item>
+        <item name="android:paddingTop">@dimen/icon_text_padding_top</item>
+        <item name="android:textSize">@dimen/paragraph_text_size</item>
+
+
+    </style>
+</resources>

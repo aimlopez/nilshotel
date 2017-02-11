@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Nils Hotel</string>
+    <string name="fa_map_marker">&#xf041;</string>
+    <string name="book_now">Book Now</string>
+    <string name="contact_us">Etiam porta sem malesuada magna mollis euismod. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.</string>
+    <string name="fa_phone">&#xf095;</string>
+    <string name="fa_mobile_phone">&#xf098;</string>
+    <string name="fa_envelope_mail">&#xf0e0;</string>
+    <string name="hotel_address">Strandgatan 10. 952 33 KALIX</string>
+    <string name="telephone">+(46) 738 26 36 96</string>
+    <string name="email">info@nilshotel.com</string>
+    <string name="contact">Contact Us</string>
+
+</resources>

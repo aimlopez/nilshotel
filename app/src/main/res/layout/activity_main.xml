@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="se.aimaralopez.nilshotel.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_weight="9">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/small_double_room" />
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/nh_logo" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/buttonArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/button_area">
+
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="12dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:background="@color/button_color"
+                android:text="@string/book_now"
+                android:textColor="@color/textBar" />
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/WrapContentValues"
+            android:layout_marginLeft="@dimen/main_content_margin"
+            android:layout_marginStart="@dimen/main_content_margin"
+            android:layout_weight="0.44"
+            android:paddingTop="15dp"
+            android:text="@string/contact"
+            android:textSize="24sp" />
+
+        <TextView
+            style="@style/WrapContentValues"
+            android:layout_marginEnd="@dimen/main_content_margin"
+            android:layout_marginLeft="@dimen/main_content_margin"
+            android:layout_marginRight="@dimen/main_content_margin"
+            android:layout_marginStart="@dimen/main_content_margin"
+            android:layout_weight="1"
+            android:text="@string/contact_us" />
+
+        <LinearLayout
+            android:id="@+id/icons_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="vertical"
+            android:layout_marginBottom="@dimen/view_bottom_margin">
+
+            <LinearLayout
+                style="@style/WrapContentValues"
+                android:layout_marginLeft="@dimen/main_content_margin"
+                android:layout_marginStart="@dimen/main_content_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/address"
+                    style="@style/WrapContentValues.icons"
+                    android:text="@string/fa_map_marker"
+                    android:textSize="@dimen/app_icon_size"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    style="@style/WrapContentValues.info"
+                    android:text="@string/hotel_address"
+                    android:paddingLeft="@dimen/icon_text_Adjustpadding_left" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WrapContentValues"
+                android:layout_marginLeft="@dimen/main_content_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/telephone"
+                    style="@style/WrapContentValues.icons"
+                    android:text="@string/fa_mobile_phone"
+                    android:textSize="@dimen/app_icon_size" />
+
+                <TextView
+                    style="@style/WrapContentValues.info"
+                    android:text="@string/telephone"
+                     />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/WrapContentValues"
+                android:layout_marginLeft="@dimen/main_content_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/email"
+                    style="@style/WrapContentValues.icons"
+                    android:text="@string/fa_envelope_mail"
+                    android:textSize="@dimen/app_iconMap_adjust_size" />
+
+                <TextView
+                    style="@style/WrapContentValues.info"
+                    android:text="@string/email"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
